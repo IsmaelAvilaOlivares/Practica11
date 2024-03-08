@@ -1,0 +1,99 @@
+body{
+    /* incertaremos una imagen de fondo  */
+    background-image: url(../img/11isma.gif);
+}
+.circulo{
+    width: 200px; /*Establece lo ancho */
+    height: 200px;/* establece la altura */
+    border-radius: 200px;/* Aplica un radio de borde para 
+    que el elemento sea circular*/
+    background-color: rgba(35, 204, 35, 0.973); /*Establece el color de fondo del elemento*/
+    margin-bottom: 220px; /*Establece un margen inferior*/
+    display: block;/* Establece que el elemento debe msotrarse con un bloque*/
+    margin-left: auto; /*Centra el elemento horizontalmente del lado izquierdo */
+    margin-right: auto; /*Centra el elemento horizontalmente del lado derecho*/
+} 
+.triangulo2{
+    width: 0px; /*Establece lo ancho */
+    height: 0px;/*establece la altura */
+    border: 13px solid transparent; /* Define el grosor y el estilo del borde del elemento. */
+    border-top: 0; /* Define el grosor y el estilo del borde superior del elemento. */
+    border-bottom: 22px solid rgb(243, 11, 11);/* Define el grosor y el estilo del borde inferior
+     del elemento, y establece el color a un tono de rojo. */
+    transform: rotate(-95deg); /* Aplica una rotación de -95 grados al elemento. */
+    display: block;  /* Hace que el elemento se muestre como un bloque. */
+    margin-left: 680px; /* Establece el margen izquierdo del elemento en 680 píxeles. */
+    margin-right: auto;  /* Establece el margen derecho del elemento en automático, 
+    lo que centrará horizontalmente el elemento. */
+    margin-top: 98px; /* Establece el margen superior del elemento en 98 píxeles. */
+}
+.rectangulo{
+    width: 200px;/*Establece lo ancho */
+    height: 200px;/*establece la altura */
+    background-color: rgba(206, 16, 16, 0.973);
+    margin-bottom: 10px;/*Establece un margen inferior*/
+    display: block; /* Hace que el elemento se muestre como un bloque. */
+    margin-left: auto;/*Centra el elemento horizontalmente del lado izquierdo */
+    margin-right: auto; /* Establece el margen derecho del elemento en automático, 
+    lo que centrará horizontalmente el elemento. */
+    margin-top: -25%;/* hacia arriba al elemento*/
+    
+} 
+.rectangulo1{
+    width: 50px; /* Define el ancho del rectángulo*/
+    height: 90px; /* Define la altura del rectángulo*/
+    background-color: rgba(112, 98, 240, 0.973); /* Establece el color de fondo del rectángulo*/
+    border-style: solid;  /* Establece el estilo del borde del rectángulo como sólido */
+    margin-bottom: 10px; /* Establece un margen inferior*/
+    display: block; /*  Define el rectángulo como un elemento de bloque*/
+    margin-left: 492px;/* Establece un margen izquierdo*/
+    margin-right: auto; /* Centra horizontalmente el rectángulo estableciendo */
+    margin-top: -14%;  /* Establece un margen superior negativo para pocicionar*/
+} 
+.rectangulo2{
+    width: 50px;/* Define el ancho del rectángulo*/
+    height: 80px; /* Define la altura del rectángulo*/
+    background-color: rgba(206, 16, 16, 0.973);/* Establece el color de fondo del rectángulo*/
+    margin-bottom: 10px;/* Establece un margen inferior*/
+    display: block;/*  Define el rectángulo como un elemento de bloque*/
+    margin-left: auto; /* será automáticamente ajustado por el navegador*/
+    margin-right: 580px;/*  habrá un espacio vacío a la derecha del elemento.*/
+    margin-top: 5%;  /* establece un margen superior*/
+    border-radius: 50px;/*  bordes del elemento sean redondeados*/
+} 
+.rectangulo3{
+    width: 50px;/* Define el ancho del rectángulo*/
+    height: 80px;/* Define la altura del rectángulo*/
+    background-color: rgba(206, 16, 16, 0.973);/* Establece el color de fondo del rectángulo*/
+    margin-bottom: 10px;/* Establece un margen inferior*/
+    display: block; /*  Define el rectángulo como un elemento de bloque*/
+    margin-left: 580px;/* Establece un margen izquierdo*/
+    margin-right: auto;/* Centra horizontalmente el rectángulo estableciendo */
+    margin-top: -7%;/* Establece un margen superior negativo para pocicionar*/
+    border-radius: 50px; /*  bordes del elemento sean redondeados*/
+} 
+.rectangulo4{
+    width: 55px;/* Define el ancho del rectángulo*/
+    height: 120px;/* Define la altura del rectángulo*/
+    background-color: rgb(41, 9, 223);/* Establece el color de fondo del rectángulo*/
+    border-style: solid; /* Establece el estilo del borde del rectángulo como sólido */
+    margin-bottom: 10px;/* Establece un margen inferior*/
+    display: block;/*  Define el rectángulo como un elemento de bloque*/
+    margin-left: 680px;/* Establece un margen izquierdo*/
+    margin-right: auto;/* Centra horizontalmente el rectángulo estableciendo */
+     margin-top: -25%; /* Establece un margen superior negativo para pocicionar*/
+    border-radius: 50px;/*  bordes del elemento sean redondeados*/
+    transform: rotate(-90deg);/*  rotamos la figura a 90 grados en sentido de las manecillas*/
+}
+.rectangulo5{
+    width: 0px;/* Define el ancho del rectángulo*/
+    height: 0px;/* Define la altura del rectángulo*/
+    border: 13px solid transparent;
+    border-top: 0;
+    border-bottom: 22px solid rgb(243, 11, 11);
+    transform: rotate(-157deg);/*  rotamos la figura a -157 grados en sentido de las manecillas*/
+    display: block; /*  Define el rectángulo como un elemento de bloque*/
+    margin-left: 558px;/* Establece un margen izquierdo*/
+    margin-right: auto;/* Centra horizontalmente el rectángulo estableciendo */
+    margin-top: -185px;/* Establece un margen superior negativo para pocicionar*/
+}
